@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+  <title>HTML FORMS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>HTML forms</h1>
+
+  <form>
+    <label for="username">username:</label>
+    <input type="text" id="username" placeholder="username" required>
+    <br><br>
+    <label for="email">enter email:</label>
+    <input type="email" id="email" placeholder="email" required>
+    <br><br>
+    <label for="password">password:</label>
+    <input type="password" id="password" placeholder="password" required>
+    <br><br>
+
+
+    <p>Select you age:</p>
+
+    <input type="radio" name="age" id="option1" value="0-25">
+    <label for="option1">0-25</label>
+    <br><br>
+    <input type="radio" name="age" id="option2" value="26-50">
+    <label for="option2">26-50</label>
+    <br><br>
+    <input type="radio" name="age" id="option3" value="50+">
+    <label for="option3">50+</label>
+    <br><br>
+
+    <label for="qusetion">security question:</label>
+    <select name="question" id="question">
+      <option value="q1">Wife name?</option>
+      <option value="q2">Grandma name?</option>
+      <option value="q3">Doggo name?</option>
+    </select>
+
+     <br><br>
+    <label for="answer">answer:</label>
+    <input type="answer" id="answer" name="answer">
+    <br><br>
+
+    <label for="bio">your bio:</label>
+    <br>
+    <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+    <br>
+
+    <input type="submit" value="submit the form">
+  </form>
+</body>
+</html>
+  
